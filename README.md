@@ -1,2 +1,2 @@
 # test_c
-It's sample code when working.
+The sample code.
