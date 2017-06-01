@@ -6,6 +6,7 @@ void number2str(){
    unsigned char *out = (unsigned char*)malloc(sizeof(uint64_t));
    sprintf(out, "%" PRIu64, in);
    printf("number:%d to string:%s\n", in, out);
+   free(out);
 }
 
 void str2number(){
